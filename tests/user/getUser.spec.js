@@ -13,4 +13,5 @@ test('GET /user/{id} should return user details', async ({ request }) => {
   console.log('Response:', data);
   expect(response.ok()).toBeTruthy();
   // Add more assertions based on the expected user response structure
+//Test note
 }); 

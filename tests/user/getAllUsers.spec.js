@@ -17,4 +17,5 @@ test('GET /user (all users) should return a paginated list of users', async ({ r
   console.log('Response:', data);
   expect(response.ok()).toBeTruthy();
   // Add more assertions based on the expected response structure
+//Add test assertion 
 }); 
